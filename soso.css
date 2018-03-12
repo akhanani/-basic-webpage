@@ -1,0 +1,51 @@
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}/*
+#china{
+  height:25%;
+  wdth:20%;
+  float: left;
+}
+*/
+#soso{
+  height:25%;
+  width:20%;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+@media (max-width: 500px) {
+  float: left;
+  width: 50%
+
+}
+ table, th, td {
+  text-align: center;
+  border-color: black;
+}
+ .hall 1{margin: 1em;
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+
+.hallone img{
+  position: relative;
+
+
+}
+ p{
+  text-align: left;
+}
